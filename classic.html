@@ -2,29 +2,61 @@
 <html lang="en">
 
 <head>
+
+  <!-- ------------ FAVICONE ---------------- -->
+  <link rel="apple-touch-icon" sizes="180x180" href="images/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicons/favicon-16x16.png">
+  <link rel="manifest" href="images/favicons/site.webmanifest">
+  <link rel="mask-icon" href="images/favicons/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <!-- Généré par http://realfavicongenerator.net/ -->
+
+
+  <!-- ------------ META ---------------- -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>Vins Deconinck</title>
+  <meta name="keywords" content="mots-clés" />
+  <meta name="description" content="description" />
+  <meta name="author" content="auteur">
+  <!-- ------------ FIN META ---------------- -->
+
+
+  <!-- ------------ STYLES ---------------- -->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
+  <!-- ------------ FIN STYLES ---------------- -->
+
+  <title>Deconinck - Vins - Genappe</title>
+
 </head>
 
 <body>
   <div class="wrapper">
-    <header>
+    <!-- ------------ HEADER ---------------- -->
+    <header role="banner">
       <a href="index.html">
-        <img class="image-header" src="images/header-deconinck.png" alt="Image header">
+        <img class="image-header" src="images/header-deconinck.png" alt="Vins Deconinck" title="Vins Deconinck">
       </a>
     </header>
-    <nav>
+    <!-- ------------ FIN HEADER ---------------- -->
+
+    <!-- ------------ NAV ---------------- -->
+    <nav role="navigation">
       <ul>
         <li><a href="news.html">Nouveautés</a></li>
         <li><a href="classic.html">Nos classiques</a></li>
-        <li><a href="contacts.html">Contact & Plan d'accès</a></li>
+        <li><a href="contacts.html">Contact &amp; Plan d'accès</a></li>
       </ul>
     </nav>
-    <main>
+    <!-- ------------ FIN NAV ---------------- -->
+
+
+    <!-- ------------ MAIN ---------------- -->
+    <main role="main">
       <section class="content">
-        <h2 class="title-contente">Nos classiques</h2>
+        <h1 class="title-contente">Nos classiques</h1>
         <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis provident, laudantium asperiores dicta
           nostrum optio architecto. Delectus ipsa assumenda cupiditate ipsam rem quasi itaque, voluptatem inventore ea
           hic magni provident!
@@ -36,57 +68,52 @@
           officia fugiat!
           is corporis dolor quo, iusto consectetur id officia quae.
         </p>
+
         <table>
           <tr>
             <td>
-              <figure>
-                <img src="images/vins/01.jpg" alt="" />
-              </figure>
+              <figure><img src="images/vins/01.jpg" alt="Vins Deconinck" /></figure>
             </td>
             <td>
-              <figure>
-                <img src="images/vins/02.jpg" alt="" />
-              </figure>
+              <figure><img src="images/vins/02.jpg" alt="Vins Deconinck" /></figure>
             </td>
             <td>
-              <figure>
-                <img src="images/vins/03.jpg" alt="" />
-              </figure>
+              <figure><img src="images/vins/03.jpg" alt="Vins Deconinck" /></figure>
             </td>
           </tr>
           <tr>
-            <td>Vin 1</td>
-            <td>Vin 2</td>
-            <td>Vin 3</td>
+            <td>AZIENDA CASALE - VINO NOBILE<br>Vino Nobile di Montepulciano</td>
+            <td>AZIENDA CASALE - DI DAVIDDI ALDIMARO - ROSSO<br>Vino Nobile di Montepulciano</td>
+            <td>AGAPE<br>Bordeaux</td>
           </tr>
           <tr>
             <td>
-              <figure>
-                <img src="images/vins/04.jpg" alt="" />
-              </figure>
+              <figure><img src="images/vins/04.jpg" alt="Vins Deconinck" /></figure>
             </td>
             <td>
-              <figure>
-                <img src="images/vins/05.jpg" alt="" />
-              </figure>
+              <figure><img src="images/vins/05.jpg" alt="Vins Deconinck" /></figure>
             </td>
             <td>
-              <figure>
-                <img src="images/vins/06.jpg" alt="" />
-              </figure>
+              <figure><img src="images/vins/06.jpg" alt="Vins Deconinck" /></figure>
             </td>
           </tr>
           <tr>
-            <td>Vin 4</td>
-            <td>Vin 5</td>
-            <td>Vin 6</td>
+            <td>ANGELITOS NEGROS<br>Toro</td>
+            <td>APALTAGUA - CARMÉNÈRE<br>non</td>
+            <td>APALTAGUA - ENVERO<br>Colchagua Valley</td>
           </tr>
         </table>
       </section>
     </main>
-    <footer class="footer">
-      <p>Deconinck Wine and Spirit - Rue Lahaut B-1380 Genappe - Tel. 02/658.26.15</p>
+    <!-- ------------ FIN MAIN ---------------- -->
+
+    <!-- ------------ FOOTER ---------------- -->
+    <footer role="contentinfo" class="footer">
+      <address> Deconinck Wine and Spirit - Rue Lahaut B-1380 Genappe - Tel. 02/658.26.15 </address>
+
+      <p id="copyright"><a href="#">Mentions légales</a></p>
     </footer>
+    <!-- ------------ FIN FOOTER ---------------- -->
   </div>
 </body>
 
